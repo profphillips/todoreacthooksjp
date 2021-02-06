@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/todoreacthooksjp/static/css/main.41c9049f.chunk.css",
+    "main.js": "/todoreacthooksjp/static/js/main.586ac0c1.chunk.js",
+    "main.js.map": "/todoreacthooksjp/static/js/main.586ac0c1.chunk.js.map",
+    "runtime-main.js": "/todoreacthooksjp/static/js/runtime-main.087b09a8.js",
+    "runtime-main.js.map": "/todoreacthooksjp/static/js/runtime-main.087b09a8.js.map",
+    "static/js/2.418ac665.chunk.js": "/todoreacthooksjp/static/js/2.418ac665.chunk.js",
+    "static/js/2.418ac665.chunk.js.map": "/todoreacthooksjp/static/js/2.418ac665.chunk.js.map",
+    "static/js/3.ac3aa689.chunk.js": "/todoreacthooksjp/static/js/3.ac3aa689.chunk.js",
+    "static/js/3.ac3aa689.chunk.js.map": "/todoreacthooksjp/static/js/3.ac3aa689.chunk.js.map",
+    "index.html": "/todoreacthooksjp/index.html",
+    "static/css/main.41c9049f.chunk.css.map": "/todoreacthooksjp/static/css/main.41c9049f.chunk.css.map",
+    "static/js/2.418ac665.chunk.js.LICENSE.txt": "/todoreacthooksjp/static/js/2.418ac665.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.087b09a8.js",
+    "static/js/2.418ac665.chunk.js",
+    "static/css/main.41c9049f.chunk.css",
+    "static/js/main.586ac0c1.chunk.js"
+  ]
+}
