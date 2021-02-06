@@ -5,9 +5,8 @@ import { TodosProvider } from "./context/todos.context";
 
 function TodoApp() {
   return (
-    <div>
+    <div className='todoapp'>
       <div>TODOS WITH HOOKS</div>
-      <p>In TodoApp p tag</p>
       <TodosProvider>
         <TodoForm />
         <TodoList />

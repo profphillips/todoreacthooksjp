@@ -12,21 +12,23 @@ function Todo({ id, task, completed }) {
         <EditTodoForm id={id} task={task} toggleEditForm={toggle} />
       ) : (
         <>
-          <li style={{ textDecoration: completed ? "line-through" : "none" }}>
-            <input
+          <li className='todolistitem' style={{ textDecoration: completed ? "line-through" : "none" }}>
+            <input className='todocheckbox'
               type="checkbox"
               tabIndex={-1}
               defaultChecked={completed}
               onClick={() => dispatch({ type: "TOGGLE", id: id })}
             />
+            <span className='todotask'>
             {task}
-            <button
+            </span>
+            <button className='todobutton'
               aria-label="Delete"
               onClick={() => dispatch({ type: "REMOVE", id: id })}
             >
               Delete
             </button>
-            <button aria-label="Edit" onClick={toggle}>
+            <button className='todobutton' aria-label="Edit" onClick={toggle}>
               Edit
             </button>
           </li>

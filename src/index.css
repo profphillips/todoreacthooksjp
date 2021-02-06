@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(207, 207, 238);
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.todoapp {
+  max-width: 800px;
+  padding: 2rem;
+}
+.todos {
+  margin-top: 10px;
+}
+.todolistitem {
+  display: flex;
+}
+.todocheckbox {
+  margin-right: 10px;
+}
+.todotask {
+  flex-grow: 2;
+}
+.todobutton {
+  min-width: 60px;
+  margin: 5px;
+  height: 20px;
 }
